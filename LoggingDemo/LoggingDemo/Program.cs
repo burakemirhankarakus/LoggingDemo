@@ -27,7 +27,7 @@ var columnOptions = new ColumnOptions
     }
 };
 
-// ☁️ 3. AWS CloudWatch client oluştur
+// AWS CloudWatch client oluştur
 var awsSection = builder.Configuration.GetSection("AWS");
 var awsCredentials = new BasicAWSCredentials(
     awsSection["AccessKey"],
